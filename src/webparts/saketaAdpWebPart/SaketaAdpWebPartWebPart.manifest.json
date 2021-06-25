@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "20634e84-9d0c-4f50-acd1-fbfb5037708f",
+  "alias": "SaketaAdpWebPartWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "SaketaADPWebPart" },
+    "description": { "default": "SaketaADPWebPart description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "SaketaADPWebPart"
+    }
+  }]
+}

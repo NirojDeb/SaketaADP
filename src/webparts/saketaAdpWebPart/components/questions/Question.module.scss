@@ -1,0 +1,11 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.heading{
+    @include ms-fontSize-42;
+    @include ms-fontWeight-bold;
+}
+
+.correctanswer{
+    background-color: #cafcf9;
+    padding:20px;
+}
