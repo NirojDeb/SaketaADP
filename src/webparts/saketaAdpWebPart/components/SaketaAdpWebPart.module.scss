@@ -20,6 +20,11 @@
     top:8px;
     right:10px;
   }
+  .stackitemEleEdit{
+    position: absolute;
+    top:8px;
+    right:120px;
+  }
   
   .Answered {
     background-color: #529800;
@@ -32,11 +37,20 @@
 
 
   .filterBtn{
+    background-color: white;
+    padding: 25px;
+    border: 1px solid white;
+    font-size: 120%;
+    color:black;
+  }
+
+  .SelectedfilterBtn{
     background-color: #d13438;
     padding: 25px;
     border: 1px solid #d13438;
     font-size: 120%;
   }
+
   .notSelected{
     background-color: white;
   }
@@ -145,6 +159,7 @@
 
 .allQuestions{
   @include ms-depth-4;
+  padding:20px;
 }
 
 .showingh3{

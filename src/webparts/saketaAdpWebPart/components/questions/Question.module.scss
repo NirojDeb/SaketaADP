@@ -9,3 +9,36 @@
     background-color: #cafcf9;
     padding:20px;
 }
+
+.stackEle{
+    position: relative;
+    padding: 0px;
+}
+
+.stackitemEle{
+    position: absolute;
+    top:8px;
+    right:10px;
+  }
+  .CorrectAnswereBtn {
+    background-color: #529800;
+    color: white;
+  }
+
+  .commentTile{
+    @include ms-depth-4;
+    padding: 10px;
+    padding-top: 3px;
+    padding-left: 20px;
+
+  }
+
+  .attachemntTile{
+      border: 1px solid black;
+      display: inline-block;
+      padding:4px;
+      margin:2px 4px;
+
+
+
+  }
